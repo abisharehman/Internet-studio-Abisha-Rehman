@@ -1,0 +1,111 @@
+/* reset browser styles */
+html, body, div, span, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, img, ins, kbd, q, s, samp,small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1.2;
+}
+ol { 
+	padding-left: 1.4em;
+	list-style: decimal;
+}
+ul {
+	padding-left: 1.4em
+	list-style: square;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+} 
+/* end reset browser styles */
+
+/* basic layout -- 2 columns */
+.main {
+	float: left;
+	width: 70%;
+}
+.sidebar {
+	margin-left: 75%;
+	padding: 15px;
+	background: #E9F5FE;
+}
+
+body {
+	
+	font-family: "palatino Linotype", baskerville, serif;
+	padding-top: 115px;
+	background: url(images/pinkflowers) repeat;
+	max-width: 800px;
+	margin: 0 auto;
+h1 {
+
+  font-size: 3em;
+  font-family: Arial black,Arial,sans-serif;
+  margin-bottom: 15px;
+  margin-left: 22%;
+
+  }
+
+  h2 {
+  	font-size: 2.2;
+  	color: #afc3d6;
+  	 margin-left: 41%;
+  	margin-bottom: 5px;
+  	}
+
+.main h2 {
+color: #e8a064;
+border-bottom: 2px whit solid;
+background: url(images/bullet_flower.png) no-repeat;
+padding: 0 0 2px 80px;
+ margin-left: 22%;
+margin-bottom: 33px;
+ }
+.main p {
+	background-color: rgba #333;
+	font-family: "palatino Linotype", baskerville, serif;
+	font-size: 1.2em;
+	 margin-left: 22%;
+	margin-bottom: 33px;
+	}
+
+ p.intro {
+ 	background-color: rgba #333;
+	font-family: "Arial", helvetica, serif;
+	font-size: 1.2em;
+	 margin-left: 22%;
+	margin-bottom: 33px;
+	}
+
+	.paragraph-container {
+    border: 2px solid black; 
+    padding: 15px; 
+    margin: 20px; 
+    width: 60%; 
+    margin-left: 18%;
+    background-color: #f0f0f0; 
+}
+header {
+  border: 2px solid black; 
+  padding: 10px;          
+  margin-bottom: 20px;    
+  background-color: #f0f0f0; 
+
+}
+.greenhat {
+  background-image: "images/greenhat"
+  background-position: center;
+  height: 38px
+    width: 50px;
+    }
