@@ -1,7 +1,47 @@
-h1 {
-	font-family: "Oswald", sans-serif;
+
+body {
+    background-color: lightskyblue;
+
+/* afacad-flux-regular - latin */
+@font-face {
+  font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+  font-family: 'Afacad Flux';
+  font-style: normal;
+  font-weight: 400;
+  src: url('fonts/afacad-flux-v4-latin-regular.woff2') format('woff2'); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+}
+
+
+/* adamina-regular - latin */
+@font-face {
+  font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+  font-family: 'Adamina';
+  font-style: normal;
+  font-weight: 400;
+  src: url('fonts/adamina-v22-latin-regular.woff2') format('woff2'); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
 }
 
 p {
-	font-family: "EB Garamond", serif;
+	font-family: 'Afacad Flux';
+	font-weight: 400;
+ }
+
+ h1,h2,h3 {
+ 	font-family: 'Adamina';
+ 	}
+
+aside {
+ width: 25%;
+ padding: 15px;
+ margin-left: 25%px;
+ float: right;
+ font-family: 'Afacad Flux';
+  font-style: normal;
+  font-weight: 400;
+ background-color: indianred;
+ border-left: 3px solid #0070d0;
+ box-shadow: 5px 5px 10px rgb(0, 0, 5);
+
+ image-orientation: width: 25%;;
+
 }
