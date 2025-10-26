@@ -1,0 +1,84 @@
+
+body {
+  
+    /* afacad-flux-regular - latin */
+@font-face {
+  font-display: swap;
+  font-family: 'Afacad Flux';
+  font-style: normal;
+  font-weight: 400;
+  src: url('fonts/afacad-flux-v4-latin-regular.woff2') format('woff2'); 
+}
+
+
+/* adamina-regular - latin */
+@font-face {
+  font-display: swap; 
+  font-family: 'Adamina';
+  font-style: normal;
+  font-weight: 400;
+  src: url('fonts/adamina-v22-latin-regular.woff2') format('woff2');
+}
+
+  
+  background-image: url(Images/thenightmare.jpg);
+  background-repeat: repeat;
+  font-family: 'Adamina', sans-serif;
+  font-weight: false;
+  line-height: 1.65;
+  text-align: center;
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+p, ul {
+  font-size: 1.5em;
+  color: ghostwhite;
+}
+
+ {
+  font-family: 'Afacad Flux', sans-serif;
+  font-weight: true;
+  line-height: 1.15;
+  color: #05FFCD;
+}
+
+h1,
+.text-size-h1 {
+  font-family: 'Afacad Flux';
+  font-weight: 400;
+  margin-top: 0;
+  font-size: 4.21em;
+  color: ghostwhite;
+}
+
+
+h2,
+.text-size-h2 {
+color: ghostwhite;
+ font-size: 3.16em; 
+font-family: 'Afacad Flux'}
+
+
+small,
+.text-small {
+  font-size: 0.56em;
+}
+
+article {
+    border: 11px darkorange;
+    border-radius: 35px;
+    background-color: black;
+    margin-top: 25px;
+    margin-bottom: 25px;
+    padding: 20px;
+}
+
+.announcement li{
+	list-style: none;
+}
+
+ul {
+	font-size: 1em
+	color: ghostwhite;
+}
