@@ -1,0 +1,246 @@
+ Insert all your glorious CSS styles below! */
+/* knewave-regular - latin */
+@font-face {
+  font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+  font-family: 'Knewave';
+  font-style: normal;
+  font-weight: 400;
+  src: url('fonts/knewave-v15-latin-regular.woff2') format('woff2'); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+}
+
+/* kodchasan-regular - latin */
+@font-face {
+  font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+  font-family: 'Kodchasan';
+  font-style: normal;
+  font-weight: 400;
+  src: url('fonts/kodchasan-v20-latin-regular.woff2') format('woff2'); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+}
+
+nav {
+	background-color: #3c0f0f;
+	border-bottom: 2px #3c0f0f;
+	border-radius: 2px;
+	font-family: 'knewaves', sans-serif;
+	color: 
+	position: left;
+	width: 100%;
+	word-spacing: 10px;
+}
+
+nav ul {
+   list-style: none;
+   display: flex;
+   justify-content: center;
+   flex-direction: row;
+   gap: 50px;
+}
+
+nav ul li {
+   background-color: d
+   padding: 5px;
+   border-radius: 3px;   
+}
+
+#flexstart {
+  justify-content: flex-start;
+}
+
+#center {
+  align-items: center;
+}
+
+html {font-size: 16px;}
+
+
+p {
+  font-size: 1.2em;
+  text-align: center;
+  line-height: 35px;
+  color: #00008B; 
+  background-color: black;
+}
+
+p,
+.text-size-h2 {
+backround color: ghostwhite;
+ font-size: 3.16em; 
+ line-height: -6Px;
+font-family: 'Afacad Flux'}
+
+h1,
+h3,
+h4,
+h5 {
+  font-family: 'knewaves', sans-serif;
+  font-weight: true;
+  line-height: 1.15;
+  text-align: center;
+}
+
+h1,
+.text-size-h1 {
+  background-color: black;
+  font-family: 'Knewave', sans-serif;
+  font-weight: 700;
+  text-align: center;
+  margin-top: 0;
+  font-size: 3.05em;
+  color: #f91a10;
+}
+
+h2, 
+.text-size-h2 { 
+font-size: 2.44em; 
+font-family: 'Knewave', sans-serif;
+font-weight: 700;
+text-align: center;
+margin-top: 0;
+color: #2aa7c9;
+}
+
+h3,
+.text-size-h3 { font-size: 1.95em; }
+
+h4,
+.text-size-h4 { font-size: 1.56em; }
+
+h5,
+.text-size-h5 { font-size: 1.25em; }
+
+.text-caption { font-size: 0.8em; }
+
+small,
+.text-small {
+  font-size: 0.64em;
+}
+              
+body { 
+  background-color: black;
+	background-repeat: repeat;
+  font-family: 'Adamina', sans-serif;
+  font-weight: false;
+  line-height: 1.65;
+  text-align: center;
+  max-width: 800px;
+  margin: 0 auto;
+}
+}
+
+ul {
+      text-align: center;
+	  width: 200px;
+      margin-left: auto;
+      margin-right: auto;
+}
+
+
+    article {
+    border: 11px darkorange;
+    border-radius: 35px;
+    background-color: black;
+    margin-top: 25px;
+    margin-bottom: 25px;
+    padding: 20px;
+}
+
+aside {
+  width: 40%;
+  justify-content: center;
+  margin: 5px;
+  background-color: rgb(240,227,63);
+  padding: 10px 20px;
+  border: 2px solid #FF0000;
+}
+
+.main {
+  width: 10%;
+  height: auto;
+}
+
+.activity {
+  max-width: 400px;
+  margin: 0 auto;
+  height: 100%;
+  text-align: center;
+  padding: 10px 10px;
+}
+
+.activity img {
+  max-width: 100%;
+  max-height: 100%;
+}
+
+.icon {
+	width: 960px;
+	margin-right: auto;
+	margin-left: auto;
+	padding: 10px 0 30px 0;	
+	text-align: right;
+	position: relative;
+}
+
+footer {
+      align: center;
+       font-size: 5px;
+      font-family: 'knewaves', sans-serif;
+      background-color: darkred;
+
+}
+
+.buttons {
+      border: 2px solid red;
+      padding: 10px 0px;
+      position: relative;
+      text-align: center;
+	  width: 100%;
+      
+}
+
+.buttons a {
+        background: rgb(0, 0, 139);
+        border: 1px solid red;
+        border-radius: 2px;
+        color: #f0e33f;
+        margin: 2px;
+        padding: 2px;
+        text-decoration: none;
+        font-size: 15px;
+}
+
+.buttons a:hover {
+        background: white;
+        border: 1px solid #131713;
+        color: #131713;
+      transform: scale(1.5);
+}
+
+nav a {
+	/*transition: all .5s;*/
+	transition: transform .5s;
+	
+}
+
+nav a:hover {
+	background-color: red;
+	transform: scale(1.5);
+}
+
+@keyframes logo {
+	from {
+		transform: rotate(0) scale(.5);
+		left: 120%;
+	}
+	50% {
+		transform: rotate(-720deg) scale(.5);
+		left: 0;
+	}
+	to {
+		transform: rotate(0) scale(1);
+		
+	}
+}
+
+.logo {
+	animation: logo 3s;
+}
