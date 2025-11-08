@@ -1,0 +1,87 @@
+ /* baskervville-sc-regular - latin */
+@font-face {
+  font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+  font-family: 'Baskervville SC';
+  font-style: normal;
+  font-weight: 400;
+  src: url('../fonts/baskervville-sc-v4-latin-regular.woff2') format('woff2'); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+}
+
+/* cute-font-regular - latin */
+@font-face {
+  font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+  font-family: 'Cute Font';
+  font-style: normal;
+  font-weight: 400;
+  src: url('../fonts/cute-font-v28-latin-regular.woff2') format('woff2'); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+}
+
+html {font-size: 16px;}
+
+body {
+  background-image: url(images/wanoo.jpg);
+  background-repeat: repeat;
+  font-family: 'baskervville';
+  font-weight: false;
+  line-height: 1.65;
+  font-style: normal;
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+p {
+  font-size: 1.5em;
+}
+
+
+h1, {
+h2,
+h3,
+h4,
+h5 
+}
+
+h1,
+.text-size-h1 {
+  font-family:  'baskervville';
+  background-color: darkgray;
+  font-weight: 700;
+  margin-top: 0;
+  font-size: 3.05em;
+  text-align: center;
+   border-radius: 35px;
+}
+
+h2, 
+.text-size-h1 {
+  text-align: center;
+background-color: indianred;
+   font-family:  'baskervville';
+   
+
+}
+
+ .container {
+  display: flex;
+  align-items: center;
+  justify-content: center
+float: center;
+    text-items: center;
+}
+
+p {
+  background-color: darkgray;
+  padding: 20px;
+   border-radius: 35px;
+   font-size: 15px;
+
+}
+  img {
+    max-width: 25%;
+    max-height:15%;
+    
+  }
+.text {
+  font-size: 20px;
+  padding-left: 20px;
+}
