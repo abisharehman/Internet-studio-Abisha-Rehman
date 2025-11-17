@@ -1,0 +1,84 @@
+/* baskervville-sc-regular - latin */
+@font-face {
+  font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+  font-family: 'Baskervville SC';
+  font-style: normal;
+  font-weight: 400;
+  src: url('../fonts/baskervville-sc-v4-latin-regular.woff2') format('woff2'); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+}
+
+/* baloo-paaji-2-800 - latin */
+@font-face {
+  font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+  font-family: 'Baloo Paaji 2';
+  font-style: normal;
+  font-weight: 800;
+  src: url('../fonts/baloo-paaji-2-v29-latin-800.woff2') format('woff2'); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+}
+
+body {
+  margin: 0;
+  border: 0;
+  font-family: 'Baskervville SC';
+  font-weight: 400;
+  background-image:  url(Images/bg.png);
+  text-color: whitesmoke; 
+}
+
+h1 {
+  font-size: 3.815rem;
+  font-family: 'Baloo Paaji 2';
+  font-weight: 800;
+  text-align: center;
+color: whitesmoke;
+background-color: darkslateblue;
+ border-radius: 35px;
+}
+
+h2 {
+  font-size: 3.052rem;
+}
+
+h4 {
+  font-size: 22px;
+  font-family: 'Baloo Paaji 2';
+  font-weight: 800;
+  text-align: center;
+color: whitesmoke;
+}
+
+p {
+  font-size: 1rem;
+  text-align: center;
+  background-color: whitesmoke;
+  padding: 19px;
+   border-radius: 35px;
+
+}
+
+p2 {
+  font-size: 1rem;
+  color: whitesmoke;
+}
+
+
+h2 {
+ text-align: center;
+color: whitesmoke;
+background-color: darkslateblue;
+}
+
+.grid-container {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr); /* Example: 3 equal columns */
+  grid-template-rows: repeat(2, 500px); /* Example: 2 rows of 100px */
+  gap: 9px; /* Optional: Add a small gap if borders are on items */
+}
+
+.grid-item {
+  border: 3px solid #ccc; 
+  background-color: darkslateblue;/* Apply a border to each item */
+}
+
+
+
