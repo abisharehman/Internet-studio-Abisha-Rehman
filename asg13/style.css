@@ -1,0 +1,85 @@
+/* baskervville-sc-regular - latin */
+@font-face {
+  font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+  font-family: 'Baskervville SC';
+  font-style: normal;
+  font-weight: 400;
+  src: url('../fonts/baskervville-sc-v4-latin-regular.woff2') format('woff2'); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+}
+
+/* baloo-paaji-2-800 - latin */
+@font-face {
+  font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+  font-family: 'Baloo Paaji 2';
+  font-style: normal;
+  font-weight: 800;
+  src: url('../fonts/baloo-paaji-2-v29-latin-800.woff2') format('woff2'); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+}
+
+body {
+  margin: 0;
+  border: 0;
+  background-image:  url(Images/pinkflowers.png);
+  text-color: whitesmoke; 
+}
+
+h1 {
+  font-size: 3.815rem;
+  font-family: 'Baskervville SC';
+  font-style: normal;
+  font-weight: 400;
+  text-align: center;
+color: whitesmoke;
+background-color: #006400;
+ border-radius: 35px;
+}
+
+h2 {
+  font-size: 3.052rem;
+}
+
+h4 {
+  font-size: 22px;
+  font-family: 'Baskervville SC';
+  font-style: normal;
+  font-weight: 400;
+  text-align: center;
+color: #006400;
+}
+
+p {
+  font-size: 1rem;
+  font-family: 'Baloo Paaji 2';
+  color: whitesmoke;
+  text-align: center;
+  background-color: #006400;
+  padding: 22px;
+   border-radius: 1px;
+}
+
+
+
+
+
+h2 {
+ text-align: center;
+color: whitesmoke;
+background-color: darkslateblue;
+}
+
+.grid-container {
+  display: grid;
+  place-items: center;
+  grid-template-columns: repeat(3, 1fr); /* Example: 3 equal columns */
+  grid-template-rows: repeat(1, 600px); /* Example: 2 rows of 100px */
+  gap: 8px; /* Optional: Add a small gap if borders are on items */
+}
+
+.grid-item {
+  border: 6px solid; 
+  border-color: #006400;
+  background-color: lightpink;/* Apply a border to each item */
+}
+
+
+
